@@ -2,12 +2,59 @@
 @import 'about';
 @import 'edu';
 
-@charset "UTF-8";
+/*@charset "UTF-8";*/
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------- header -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  background-image: url("../img/tessdevon_banner2.jpg");
+  display: flex;
+  position: relative;
+  top: 0;
+}
+
+h1, h2{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header_boarder{
+  position: relative;
+  top: 20px;
+  left: 15%;
+}
+
+.header_button1{
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.header_button2{
+  position: absolute;
+  bottom: 1rem;
+  left: 6rem;
+}
+
+ul{
+  list-style: none;
+  padding-left: 15px;
+}
+
+button{
+  border-radius: 15px;
+}
+
+
+
+
+
 
 
 
@@ -31,12 +78,100 @@
 ---------------------------------------- plate ---------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
+@media only screen and (min-width: 768px) { 
+  header {
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    background-image: url("../img/tessdevon_banner.png");
+    display: flex;
+  }
+
+  h1{
+    position: relative;
+    top: 35px;
+    left: 15%;
+    font-size: 3rem;
+  }
+  
+  h2{
+    position: relative;
+    top: 45px;
+    left: 25%;
+    font-size: 2rem;
+  }
+  
+  .header_button1{
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .header_button2{
+    bottom: 2rem;
+    left: 8.5rem;
+    font-size: 1.5rem;
+
+  }
+
+}
+
+
+
 
 /*------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------- desktop -------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------*/
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+  header {
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-image: url("../img/tessdevon_banner.png");
+    display: flex;
+  }
+
+  h1{
+    top: 40px;
+    left: 40%;
+    font-size: 4rem;
+  }
+  
+  h2{
+    position: relative;
+    top: 50px;
+    left: 55%;
+    font-size: 3rem;
+  }
+
+  .header_button1{
+    bottom: 3rem;
+    left: 3rem;
+    font-size: 2rem;
+  }
+  
+  .header_button2{
+    bottom: 3rem;
+    left: 11rem;
+    font-size: 2rem;
+
+  }
+
+}
 
 
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------
+------------------------------------blandad extrakod - bra att ha sen ev ----------------------------
+----------------------------------------------------------------------------------------------------*/
 
 
 
