@@ -88,6 +88,11 @@ font-weight: 200;
 }
 
 
+/*----- Fokus på att få sidan att fungera i olika storlekar -------------
+------- mobil ca 375px, platta ca 768-1024px och laptop 1200-1600px -----
+------- Lägger de sist på sidan när det är klart ------------------------
+------- Tar en del i taget, 2 media only screen nedan följer med då -----*/
+
 @media only screen and (min-width: 768px) { 
 
   main{
