@@ -10,36 +10,44 @@
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 header {
+  background-image: url("../img/TessDevonBanner1.jpg");
+  aspect-ratio: 20 / 9;
   background-size: cover;
-  background-position: center;
-  height: 300px;
-  background-image: url("../img/tessdevon_banner2.jpg");
-  display: flex;
   position: relative;
   top: 0;
+  display: flex;
 }
 
-h1, h2{
+h1, .header_h2{
   color: white;
   font-family: 'Poppins', sans-serif;
+  position: relative;
 }
+
+h1{
+  font-size: 1.5rem;
+}
+.header_h2{
+  font-size: 1.2rem;
+}
+
 
 .header_boarder{
   position: relative;
-  top: 20px;
-  left: 15%;
+  top: 0;
+  left: 5%;
 }
 
 .header_button1{
   position: absolute;
   bottom: 1rem;
-  left: 1rem;
+  right: 8rem;
 }
 
 .header_button2{
   position: absolute;
   bottom: 1rem;
-  left: 6.5rem;
+  right: 1rem;
 }
 
 ul{
@@ -59,7 +67,7 @@ button{
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 main{
-  margin: 0 2rem;
+  margin: 0 3rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -84,7 +92,6 @@ table{
 margin: 15px;
 font-size: 0.6rem;
 width: 100%;
-
 }
 
 .thead_td{
@@ -94,7 +101,23 @@ font-weight: 200;
 
 td{
   font-size: 0,6rem;
+  padding-right: 10px;
 }
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------- form ---------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
 
 
 /*----- Fokus på att få sidan att fungera i olika storlekar -------------
@@ -103,30 +126,7 @@ td{
 ------- Tar en del i taget, 2 media only screen nedan följer med då -----*/
 
 @media only screen and (min-width: 768px) { 
-
-  main{
-    margin: 0 3rem;
-    font-family: 'Poppins', sans-serif;
-  }
   
-  .tablediv{
-    line-height: 30px;
-    border: 1px solid darkgray;
-    display: inline-block;
-    
-  }
-  
-  .tableh4{
-    display: inline-block;
-    margin: 15px;
-    margin-bottom: 0;
-  }
-  
-  table{
-  margin: 15px;
-  font-size: 0.7rem;
-  
-  }
 
 
 }
@@ -135,12 +135,6 @@ td{
 
 
 }
-
-/*-----------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------- form ---------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------footer --------------------------------------------------------------------------------------------
@@ -153,40 +147,48 @@ td{
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) { 
-  header {
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    background-image: url("../img/tessdevon_banner.png");
-    display: flex;
-  }
 
-  h1{
+  header{
+    background-image: url("../img/TessDevonBanner2.jpg");
+    aspect-ratio: 27 / 9;
+    background-size: cover;
     position: relative;
-    top: 35px;
-    left: 15%;
-    font-size: 3rem;
+    top: 0;
+    display: flex;
+    }
+  h1{
+    top: 2px;
+    left: 2%;
+    font-size: 2rem;
   }
   
-  h2{
-    position: relative;
-    top: 45px;
-    left: 25%;
-    font-size: 2rem;
+  .header_h2{
+    top: 6px;
+    left: 2%;
+    font-size: 1.5rem;
   }
   
   .header_button1{
     bottom: 2rem;
-    left: 2rem;
-    font-size: 1.5rem;
+    right: 10rem;
+    width: 7rem;
   }
   
   .header_button2{
     bottom: 2rem;
-    left: 9.5rem;
-    font-size: 1.5rem;
+    right: 2rem;
+    width: 8rem;
 
   }
+
+  .tablediv{
+    line-height: 30px;
+  }
+  
+  table{
+  font-size: 1rem;
+  }
+
 
 }
 
@@ -198,37 +200,30 @@ td{
 ---------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 1200px) {
-  header {
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    background-image: url("../img/tessdevon_banner.png");
-    display: flex;
-  }
 
   h1{
-    top: 40px;
-    left: 40%;
-    font-size: 4rem;
+    top: 10px;
+    left: 5%;
+    font-size: 3rem;
   }
   
-  h2{
-    position: relative;
-    top: 50px;
-    left: 55%;
-    font-size: 3rem;
+  .header_h2{
+    top: 0px;
+    left: 5%;
+    font-size: 2.5rem;
+    margin: 5px;
   }
 
   .header_button1{
-    bottom: 3rem;
-    left: 3rem;
-    font-size: 2rem;
+    bottom: 1rem;
+    right: 18rem;
+    font-size: 1.5rem;
   }
   
   .header_button2{
-    bottom: 3rem;
-    left: 12.5rem;
-    font-size: 2rem;
+    bottom: 1rem;
+    right: 9rem;
+    font-size: 1.5rem;
 
   }
 
