@@ -63,11 +63,15 @@ main{
   font-family: 'Poppins', sans-serif;
 }
 
+.edu{
+  width: 100%;
+}
+
 .table_div{
   line-height: 20px;
   border: 1px solid darkgray;
   display: inline-block;
-  
+  width: 100%;
 }
 
 .table_h4{
@@ -79,12 +83,17 @@ main{
 table{
 margin: 15px;
 font-size: 0.6rem;
+width: 100%;
 
 }
 
 .thead_td{
 font-size: 0.8rem;
 font-weight: 200;
+}
+
+td{
+  font-size: 0,6rem;
 }
 
 
