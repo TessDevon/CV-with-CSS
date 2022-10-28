@@ -59,16 +59,60 @@ button{
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 main{
-  margin: 0 3rem;
+  margin: 0 2rem;
   font-family: 'Poppins', sans-serif;
 }
 
+.table_div{
+  line-height: 20px;
+  border: 1px solid darkgray;
+  display: inline-block;
+  
+}
+
+.table_h4{
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0;
+}
+
 table{
-  line-height: 30px;
+margin: 15px;
+font-size: 0.6rem;
+
+}
+
+.thead_td{
+font-size: 0.8rem;
+font-weight: 200;
 }
 
 
 @media only screen and (min-width: 768px) { 
+
+  main{
+    margin: 0 3rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .tablediv{
+    line-height: 30px;
+    border: 1px solid darkgray;
+    display: inline-block;
+    
+  }
+  
+  .tableh4{
+    display: inline-block;
+    margin: 15px;
+    margin-bottom: 0;
+  }
+  
+  table{
+  margin: 15px;
+  font-size: 0.7rem;
+  
+  }
 
 
 }
