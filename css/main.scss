@@ -9,6 +9,7 @@
 ---------------------------------------- header -------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
 header {
   background-image: url("../img/TessDevonBanner1.jpg");
   aspect-ratio: 20 / 9;
@@ -28,7 +29,7 @@ h1{
   font-size: 6.5vw;
 }
 .header_h2{
-  font-size: 5.5vw;
+  font-size: 5.3vw;
 }
 
 
@@ -41,13 +42,13 @@ h1{
 .header_button1{
   position: absolute;
   bottom: 1rem;
-  right: 8rem;
+  left: 1rem;
 }
 
 .header_button2{
   position: absolute;
   bottom: 1rem;
-  right: 1rem;
+  left: 6.5rem;
 }
 
 ul{
@@ -67,8 +68,20 @@ button{
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 main{
-  margin: 0 3rem;
+  margin: 0 10vw;
   font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  font-size: 5vw;
+}
+
+h4{
+  font-size: 4vw;
+}
+
+p{
+  font-size: 3.5vw;
 }
 
 .edu{
@@ -76,35 +89,25 @@ main{
 }
 
 .table_div{
-  line-height: 20px;
+  line-height: 5.5vw;
   border: 1px solid darkgray;
   display: inline-block;
-  width: 100%;
 }
 
 .table_h4{
-  display: inline-block;
   margin: 15px;
   margin-bottom: 0;
+  margin-right: 20px;
+  font-size: 3.5vw;
 }
 
 table{
-margin: 15px;
-font-size: 0.9rem;
-width: 100%;
-}
-
-.thead_td{
-font-size: 0.8rem;
-font-weight: 200;
+  margin: 15px;
 }
 
 td{
-  font-size: 0,6rem;
-  padding-right: 10px;
+  font-size: 3.5vw;
 }
-
-
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------
@@ -113,28 +116,6 @@ td{
 
 
 
-
-
-
-
-
-
-
-/*----- Fokus på att få sidan att fungera i olika storlekar -------------
-------- mobil ca 375px, platta ca 768-1024px och laptop 1200-1600px -----
-------- Lägger de sist på sidan när det är klart ------------------------
-------- Tar en del i taget, 2 media only screen nedan följer med då -----*/
-
-@media only screen and (min-width: 768px) { 
-  
-
-
-}
-
-@media only screen and (min-width: 1200px) {
-
-
-}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------footer --------------------------------------------------------------------------------------------
@@ -179,8 +160,10 @@ td{
     bottom: 1rem;
     right: 1vw;
     font-size: 2vw;
+  }
 
-
+  main{
+    margin: 0 15vw;
   }
 
   .tablediv{
@@ -188,7 +171,6 @@ td{
   }
   
   table{
-  font-size: 1rem;
   }
 
 
@@ -226,7 +208,6 @@ td{
     bottom: 1rem;
     right: 1vw;
     font-size: 2vw;
-
   }
 
 
