@@ -30,6 +30,7 @@ h1{
 }
 .header_h2{
   font-size: 5.3vw;
+  color: chartreuse;
 }
 
 
@@ -81,7 +82,7 @@ h4{
 }
 
 p{
-  font-size: 3.5vw;
+  font-size: 3.6vw;
   line-height: 5vw;
 }
 
@@ -115,6 +116,32 @@ td{
 ---------------------------------------- form ---------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------*/
 
+form{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+}
+
+.form_h2 {
+font-size: 7vw;
+}
+
+input[type=submit] {
+padding: 16px 32px;
+margin: 4px 2px;
+border-radius: 10px;
+cursor: pionter;
+}
+
+input[type=email], input[type=text], textarea {
+width: 95%;
+}
+
+textarea {
+  height: 40vw;
+}
 
 
 
@@ -129,9 +156,17 @@ footer{
   padding-bottom: 10vw;
 }
 
-footer>div {
-  
+.footer_link{
+  color: chartreuse;  
+  padding: 25px;
+  padding-left: 15px;
+  font-size: 3vw;
 }
+
+.footer_text{
+  padding-left: 15px;
+}
+
 
 /*------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------- plate ---------------------------------------------------------------------------------------------
