@@ -93,6 +93,7 @@ p{
 .table_div{
   line-height: 6.3vw;
   border: 1px solid darkgray;
+  border-radius: 10px;
   display: inline-block;
 }
 
@@ -195,16 +196,18 @@ footer{
   }
   
   .header_button1{
-    bottom: 1rem;
-    right: 15vw;
+    bottom: 5px;
     font-size: 2vw;
+    width: 15vw;
+    left: 65vw;
   }
 
   
   .header_button2{
-    bottom: 1rem;
-    right: 1vw;
+    bottom: 5px;
+    left: 80vw;
     font-size: 2vw;
+    width: 15vw;
   }
 
   main{
