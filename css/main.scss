@@ -51,7 +51,7 @@ h1{
   left: 6.5rem;
 }
 
-ul{
+.header_ul{
   list-style: none;
   padding-left: 15px;
 }
@@ -135,7 +135,7 @@ input[type=submit] {
 padding: 16px 32px;
 margin: 4px 2px;
 border-radius: 10px;
-cursor: pionter;
+cursor: pointer;
 }
 
 input[type=email], input[type=text], textarea {
