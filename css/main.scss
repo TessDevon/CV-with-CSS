@@ -56,6 +56,10 @@ h1{
   padding-left: 15px;
 }
 
+.header_link{
+  text-decoration: none;
+}
+
 button{
   border-radius: 15px;
   font-family: 'Poppins', sans-serif;
@@ -155,7 +159,7 @@ textarea {
 footer{
   background-color: black;
   color: white;
-  padding top: 1vw;
+  padding-top: 1vw;
   padding-bottom: 4vw;
   display: flex;
   flex-direction: row;
