@@ -40,7 +40,7 @@
 .edu_footer{
     background-color: black;
     color: white;
-    padding-bottom: 10vw;
+    padding-bottom: 3vw;
     margin-top: 10vw;
     font-size: 5vw;
     padding-left: 8vw;
@@ -48,7 +48,99 @@
 
 .footer_edu_link{
     color: chartreuse;  
-    padding: 25px;
+    padding: 15px;
     padding-left: 0px;
     font-size: 4vw;
   }
+
+.edu_ul{
+    font-size: 3.5vw;
+}
+
+  
+
+@media only screen and (min-width: 768px) { 
+
+
+    .edu_section{
+        margin-left: 15vw;
+        margin-right: 15vw;
+        
+    }
+    
+
+    .edu_h2{
+        background-color: black;
+        color: white;
+        font-size: 5vw;
+        text-align: center;
+        padding-left: 15vw;
+    }
+
+    .edu_section>h3{
+        font-size: 4vw;
+    }
+
+    .edu_section>p{
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+
+    .edu_footer{
+        padding-left: 15vw;
+    }
+
+    .footer_edu_link{  
+        padding: 15px;
+        padding-left: 0;
+        font-size: 3vw;
+    }
+
+    .edu_ul{
+        font-size: 2vw;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .edu_section{
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+    
+
+    .edu_h2{
+        background-color: black;
+        color: white;
+        font-size: 3.5vw;
+        text-align: center;
+        padding-left: 30vw;
+    }
+
+    .edu_section>h3{
+        font-size: 2vw;
+    }
+
+    .edu_section>p{
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+
+    .edu_footer{
+        padding-left: 30vw;
+    }
+
+    .footer_edu_link{  
+        padding: 5px;
+        padding-left: 0;
+        font-size: 2vw;
+    }
+
+    .edu_ul{
+        font-size: 1.2vw;
+    }
+
+}
+
