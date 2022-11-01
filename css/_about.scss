@@ -1,0 +1,60 @@
+/*.about_background{
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    z-index: -1;
+}*/
+
+.about_backgound{
+    margin: 0px;
+}
+
+.about_body{
+    border: 20px solid black;
+    font-family: 'Poppins', sans-serif;
+    width: 82%;
+    padding: 5vw;
+    margin: 0px;
+}
+
+.about_h2{
+    font-size: 8vw;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+}
+
+.aboutpic{
+    width: 70vw;
+}
+
+
+
+@media only screen and (min-width: 768px) { 
+
+    .about_body{
+        border: 32px solid black;
+        width: 82%;
+        padding: 5vw;
+        display: flex;
+        gap: 5vw;
+      }
+
+
+
+    .aboutpic{
+        width: 50vw;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .aboutpic{
+        width: 30vw;
+    }
+
+}
+
