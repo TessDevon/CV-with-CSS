@@ -225,15 +225,17 @@ footer{
     width: 15vw;
   }
 
-  main{
-    margin: 0 5vw;
-    display: flex;
-    gap: 15%;
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
   }
 
   .edu_work{
-    width: 50%;
-    margin-bottom: 80px;
+    grid-column: 1 / span 4;
+  }
+
+  .form_devon{
+    grid-column: 6 / span 3;
   }
 
   h3{
@@ -273,10 +275,6 @@ footer{
 
   form{
     margin-top: 50px;
-  }
-
-  .form_devon{
-    width: 35%;
   }
 
   .form_h2 {
@@ -336,16 +334,17 @@ footer{
     font-size: 2vw;
   }
 
-  main{
-    margin: 0 10vw;
-    display: flex;
-    gap: 18%;
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
   }
 
   .edu_work{
-    width: 50%;
-    margin-bottom: 80px;
-    margin-top: 18px;
+    grid-column: 1 / span 7;
+  }
+
+  .form_devon{
+    grid-column: 9 / span 4;
   }
 
   h3{
@@ -386,10 +385,6 @@ footer{
 
   form{
     margin-top: 50px;
-  }
-
-  .form_devon{
-    width: 35%;
   }
 
   .form_h2 {
