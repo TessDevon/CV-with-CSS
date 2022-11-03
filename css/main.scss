@@ -99,7 +99,7 @@ p{
 
 .edu_links{
   text-decoration: none;
-  color: rgb(157, 231, 79);    
+  color: rgb(99, 144, 50);    
 }
 
 .table_div{
@@ -180,7 +180,7 @@ footer{
   color: chartreuse;  
   padding: 25px;
   padding-left: 15px;
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -216,7 +216,7 @@ footer{
   .header_button1{
     bottom: 5px;
     font-size: 2vw;
-    width: 15vw;
+    width: 13vw;
     left: 65vw;
   }
   
@@ -232,6 +232,7 @@ footer{
   }
 
   .grid-container{
+    display: grid;
     grid-template-columns: repeat(8, 1fr);
   }
 
@@ -285,6 +286,10 @@ footer{
     font-size: 1.8vw;
   }
 
+  footer{
+    margin-top: 10vw;
+  }
+
 }
 
 
@@ -318,7 +323,7 @@ footer{
   }
 
   .grid-container{
-    display: grid;
+
     grid-template-columns: repeat(12, 1fr);
   }
 
@@ -344,7 +349,7 @@ footer{
   }
 
   .table_div{
-    line-height: 2.5vw;
+    line-height: 2.3vw;
   }
 
   .table_h4{
