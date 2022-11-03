@@ -42,14 +42,14 @@ h1{
 
 .header_button1{
   position: absolute;
-  bottom: 1rem;
-  left: 1rem;
+  bottom: 4vw;
+  left: 4vw;
 }
 
 .header_button2{
   position: absolute;
-  bottom: 1rem;
-  left: 6.5rem;
+  bottom: 4vw;
+  left: 28vw;
 }
 
 .header_ul{
@@ -59,6 +59,7 @@ h1{
 
 .header_link{
   text-decoration: none;
+  font-size: 4.5vw;
 }
 
 button{
@@ -198,10 +199,6 @@ footer{
   header{
     background-image: url("../img/TessDevonBanner2.jpg");
     aspect-ratio: 27 / 9;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    display: flex;
   }
 
   h1{
@@ -230,8 +227,11 @@ footer{
     width: 15vw;
   }
 
+  .header_link{
+    font-size: 2vw;
+  }
+
   .grid-container{
-    display: grid;
     grid-template-columns: repeat(8, 1fr);
   }
 
@@ -258,20 +258,10 @@ footer{
 
   .table_div{
     line-height: 4.5vw;
-    border: 1px solid darkgray;
-    border-radius: 10px;
-    display: inline-block;
   }
 
   .table_h4{
-   margin: 15px;
-   margin-bottom: 0;
-   margin-right: 20px;
    font-size: 2.5vw;
-  }
-
-  table{
-    margin: 15px;
   }
 
   td{
@@ -286,21 +276,12 @@ footer{
     font-size: 2.5vw;
   }
 
-  footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
   .footer_link{
-    color: chartreuse;  
     padding: 5px;
-    padding-left: 15px;
     font-size: 1.8vw;
   }
   
   .footer_text{
-    padding-left: 15px;
     font-size: 1.8vw;
   }
 
@@ -323,20 +304,17 @@ footer{
   .header_h2{
     top: 0px;
     left: 5%;
-    font-size: 3vw;
     margin: 5px;
   }
 
   .header_button1{
     bottom: 1rem;
     right: 15vw;
-    font-size: 2vw;
   }
   
   .header_button2{
     bottom: 1rem;
     right: 1vw;
-    font-size: 2vw;
   }
 
   .grid-container{
@@ -367,20 +345,10 @@ footer{
 
   .table_div{
     line-height: 2.5vw;
-    border: 1px solid darkgray;
-    border-radius: 10px;
-    display: inline-block;
   }
 
   .table_h4{
-   margin: 15px;
-   margin-bottom: 0;
-   margin-right: 20px;
    font-size: 2vw;
-  }
-
-  table{
-    margin: 15px;
   }
 
   td{
@@ -388,23 +356,16 @@ footer{
     padding-right: 20px;
   }
 
-  form{
-    margin-top: 10vw;
-  }
-
   .form_h2 {
     font-size: 2vw;
   }
   
   .footer_link{
-    color: chartreuse;  
     padding: 15px;
-    padding-left: 15px;
     font-size: 1.5vw;
   }
   
   .footer_text{
-    padding-left: 15px;
     font-size: 1.5vw;
   }
 
