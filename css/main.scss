@@ -55,9 +55,16 @@ h1{
   padding-left: 15px;
 }
 
-.header_link{
-  text-decoration: none;
-  font-size: 4.5vw;
+.header_link1{
+  font-size: 2vw;
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+
+.header_link2{
+  font-size: 2vw;
+  background-color: transparent;
+  border: 0px solid transparent;
 }
 
 button{
@@ -202,6 +209,10 @@ footer{
   margin-right: 5px;
 } 
 
+
+
+
+
 /*------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------- plate ---------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -237,10 +248,6 @@ footer{
     left: 80vw;
     font-size: 2vw;
     width: 15vw;
-  }
-
-  .header_link{
-    font-size: 2vw;
   }
 
   .grid-container{
