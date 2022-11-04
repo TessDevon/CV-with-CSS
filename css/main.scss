@@ -180,6 +180,28 @@ footer{
   padding-left: 15px;
 }
 
+#linkedin::before {
+  content:"";
+  background-image: url(../img/linkedin.svg);
+  background-size: 15px;
+  background-color: white;
+  display: inline-block; 
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+} 
+
+#github::before {
+  content:"";
+  background-image: url(../img/github.svg);
+  background-size: 15px;
+  background-color: white;
+  display: inline-block; 
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+} 
+
 /*------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------- plate ---------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------*/
