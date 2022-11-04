@@ -42,12 +42,14 @@ h1{
   position: absolute;
   bottom: 4vw;
   left: 4vw;
+  font-size: 4vw;
 }
 
 .header_button2{
   position: absolute;
   bottom: 4vw;
   left: 28vw;
+  font-size: 4vw;
 }
 
 .header_ul{
@@ -178,6 +180,7 @@ footer{
 .footer_link{
   color: chartreuse;  
   padding: 25px;
+  padding-right: 5px;
   padding-left: 15px;
   font-size: 3.5vw;
   font-family: 'Poppins', sans-serif;
