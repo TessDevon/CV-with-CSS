@@ -190,7 +190,7 @@ footer{
   padding-left: 15px;
 }
 
-#linkedin::before {
+#footer_link_linkedin::before {
   content:"";
   background-image: url(../img/linkedin.svg);
   background-size: 15px;
@@ -201,7 +201,7 @@ footer{
   margin-right: 5px;
 } 
 
-#github::before {
+#footer_link_github::before {
   content:"";
   background-image: url(../img/github.svg);
   background-size: 15px;
@@ -236,20 +236,16 @@ footer{
   }
   
   .header_button1{
-    border-radius: 10px;
     bottom: 5px;
     left: 65vw;
     font-size: 2vw;
-    padding: 1vw;
     width: 9vw;
   }
   
   .header_button2{
-    border-radius: 10px;
     bottom: 5px;
     left: 80vw;
     font-size: 2vw;
-    padding: 1vw;
     width: 12vw;
   }
 
